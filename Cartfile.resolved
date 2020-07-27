@@ -1,5 +1,4 @@
-github "Mantle/Mantle" "1.5.8"
-github "Quick/Nimble" "v6.1.0"
-github "Quick/Quick" "v1.1.0"
+git "file:////Users/mariuslandwehr/Developer/macOS/Nimble" "b97ef3bc63376b193676e3b28cf2381eed615dba"
+git "file:///Users/mariuslandwehr/Developer/macOS/Mantle" "d0327db84fa2b341d4b7dce5759891a23fbf8c3f"
+git "file:///Users/mariuslandwehr/Developer/macOS/Quick" "v2.2.1"
 github "ReactiveCocoa/ReactiveCocoa" "v2.5"
-github "jspahrsummers/xcconfigs" "0.8.1"
