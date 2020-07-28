@@ -178,9 +178,9 @@ NSString * const SQRLShipItRequestPropertyErrorKey = @"SQRLShipItRequestProperty
 - (RACSignal *)serialization {
 	return [[RACSignal
 		defer:^{
-			NSDictionary *JSONDictionary = [MTLJSONAdapter JSONDictionaryFromModel:self];
-
 			NSError *error;
+			NSDictionary *JSONDictionary = [MTLJSONAdapter JSONDictionaryFromModel:self error:&error];
+		
 			NSData *data = [NSJSONSerialization dataWithJSONObject:JSONDictionary options:0 error:&error];
 			if (data == nil) {
 				return [RACSignal error:error];
