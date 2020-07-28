@@ -1,2 +1,2 @@
 git "file:///Users/mariuslandwehr/Developer/macOS/Mantle" "master"
-github "ReactiveCocoa/ReactiveCocoa" ~> 2.4.3
+git "file:///Users/mariuslandwehr/Developer/macOS/ReactiveCocoa" "master"
